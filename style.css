@@ -1,0 +1,22 @@
+/************************************ Main Shit */
+body{position:relative;width:95%;margin:0 auto;font:16pt/18pt Montserrat, sans-serif;background:#fff;}
+h1,h2,h3,h4,blockquote{text-align:center;font-family:"Roboto Slab", serif;}
+a{color:#5500AA;}
+a:visited{color:#5500DD;}
+a:hover{color:#DD5500;}
+header h1{text-align:center;font-size:2em;}
+#content{background:#fff;margin-bottom:3em;}
+#tabs{position:fixed;bottom:0;padding:0;}
+#tabs,#tabs *{background:#fff;}
+#tabs nav ul{width:100%;padding:0;list-style:none;}
+#tabs nav li{width:20%;padding:0 .25em;text-align:center;vertical-align:bottom;display:inline-block;overflow:hidden;}
+#tabs nav li svg{max-height:2em;}
+#tabs nav a li span{display:block;font-size:.8em;}
+@media all and (max-width: 699px){}
+
+/************************************ Projects Post Shit */
+.projects .post{width:45%;display:inline-block;vertical-align:top;padding:4px;padding-left:8px}
+.projects .post:nth-of-type(2n){border-left:dotted 1px #BBB;padding-left:8px;}
+.projects .post img{max-width:95%;display:block;margin:0 auto;}
+.projects .post p:first-of-type{border-top:solid #CCC 1px;padding-top:3px;}
+.projects .post:last-of-type{padding-bottom:4em;}
